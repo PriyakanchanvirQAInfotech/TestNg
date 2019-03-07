@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+    <line>
+      <![CDATA[When directly click on proceed and it will open an error page.]]>
+    </line>
+    <line>
+      <![CDATA[Generate token and click on proceed and it will open an error page.]]>
+    </line>
+    <line>
+      <![CDATA[Generate token, copy token value and create cookie then click on proceed and it will proceed to next page.]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceed directly and it will open an error page.]]>
+    </line>
+    <line>
+      <![CDATA[Click on Launch Popup Window to open the popup window.]]>
+    </line>
+    <line>
+      <![CDATA[Click on Launch Popup Window to open the popup window and click on submit without putting any value it will open an error page.]]>
+    </line>
+    <line>
+      <![CDATA[Click on Launch Popup Window to open the popup window, then put the name in the text field and click on submit button, it will return back to the main page and then click on proceed it will open next page.]]>
+    </line>
+    <line>
+      <![CDATA[When we click on proceed if the colour of box1 and box2 are not same then it proceeds to an error page.]]>
+    </line>
+    <line>
+      <![CDATA[Colour of box1 and box2 are not same then we click on 'Repaint Box 2' to recolour it.]]>
+    </line>
+    <line>
+      <![CDATA[Colour of box1 and box2 are not same after repainting second box then after clicking on 'Proceed' it proceeds to an error page.]]>
+    </line>
+    <line>
+      <![CDATA[Dragbox and drop it in the box and click on proceed and it will open the next page.]]>
+    </line>
+    <line>
+      <![CDATA[Dragbox and drop it outside the box and click on proceed and it will open an error page.]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="12422" started-at="2019-03-07T12:27:10Z" finished-at="2019-03-07T12:27:22Z">
+    <groups>
+    </groups>
+    <test name="Chrome1" duration-ms="5033" started-at="2019-03-07T12:27:10Z" finished-at="2019-03-07T12:27:15Z">
+      <class name="org.pages.tatoc.PopupWindows">
+        <test-method status="PASS" signature="directlyProceed()[pri:0, instance:org.pages.tatoc.PopupWindows@4cf777e8]" name="directlyProceed" duration-ms="105" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on proceed directly and it will open an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- directlyProceed -->
+        <test-method status="PASS" signature="launchPopupWindow()[pri:0, instance:org.pages.tatoc.PopupWindows@4cf777e8]" name="launchPopupWindow" duration-ms="88" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Launch Popup Window to open the popup window.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPopupWindow -->
+        <test-method status="PASS" signature="launchPopupWithoutValue()[pri:0, instance:org.pages.tatoc.PopupWindows@4cf777e8]" name="launchPopupWithoutValue" duration-ms="211" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Launch Popup Window to open the popup window and click on submit without putting any value it will open an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPopupWithoutValue -->
+        <test-method status="PASS" signature="popUpWindowWithValue()[pri:0, instance:org.pages.tatoc.PopupWindows@4cf777e8]" name="popUpWindowWithValue" duration-ms="209" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Launch Popup Window to open the popup window, then put the name in the text field and click on submit button, it will return back to the main page and then click on proceed it will open next page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- popUpWindowWithValue -->
+      </class> <!-- org.pages.tatoc.PopupWindows -->
+      <class name="org.pages.tatoc.CookieHandling">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pages.tatoc.CookieHandling@2f686d1f]" name="beforeMethod" is-config="true" duration-ms="2158" started-at="2019-03-07T12:27:10Z" finished-at="2019-03-07T12:27:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pages.tatoc.PopupWindows@4cf777e8]" name="beforeMethod" is-config="true" duration-ms="1747" started-at="2019-03-07T12:27:12Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cookieDirectProceed()[pri:0, instance:org.pages.tatoc.CookieHandling@2f686d1f]" name="cookieDirectProceed" duration-ms="98" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[When directly click on proceed and it will open an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cookieDirectProceed -->
+        <test-method status="PASS" signature="cookieGenerateTokenAndProceed()[pri:0, instance:org.pages.tatoc.CookieHandling@2f686d1f]" name="cookieGenerateTokenAndProceed" duration-ms="105" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Generate token and click on proceed and it will open an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cookieGenerateTokenAndProceed -->
+        <test-method status="PASS" signature="cookieSetProperly()[pri:0, instance:org.pages.tatoc.CookieHandling@2f686d1f]" name="cookieSetProperly" duration-ms="134" started-at="2019-03-07T12:27:14Z" finished-at="2019-03-07T12:27:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Generate token, copy token value and create cookie then click on proceed and it will proceed to next page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cookieSetProperly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pages.tatoc.CookieHandling@2f686d1f]" name="afterMethod" is-config="true" duration-ms="66" started-at="2019-03-07T12:27:15Z" finished-at="2019-03-07T12:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pages.tatoc.PopupWindows@4cf777e8]" name="afterMethod" is-config="true" duration-ms="70" started-at="2019-03-07T12:27:15Z" finished-at="2019-03-07T12:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.pages.tatoc.CookieHandling -->
+    </test> <!-- Chrome1 -->
+    <test name="Chrome" duration-ms="4857" started-at="2019-03-07T12:27:15Z" finished-at="2019-03-07T12:27:20Z">
+      <class name="org.pages.tatoc.FrameDungeon">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pages.tatoc.FrameDungeon@31a5c39e]" name="beforeMethod" is-config="true" duration-ms="2074" started-at="2019-03-07T12:27:15Z" finished-at="2019-03-07T12:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pages.tatoc.GridGate@5f2108b5]" name="beforeMethod" is-config="true" duration-ms="1836" started-at="2019-03-07T12:27:17Z" finished-at="2019-03-07T12:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="boxColourCheck()[pri:0, instance:org.pages.tatoc.FrameDungeon@31a5c39e]" name="boxColourCheck" duration-ms="253" started-at="2019-03-07T12:27:19Z" finished-at="2019-03-07T12:27:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[When we click on proceed if the colour of box1 and box2 are not same then it proceeds to an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- boxColourCheck -->
+        <test-method status="PASS" signature="clickRepaintBox2()[pri:0, instance:org.pages.tatoc.FrameDungeon@31a5c39e]" name="clickRepaintBox2" duration-ms="166" started-at="2019-03-07T12:27:19Z" finished-at="2019-03-07T12:27:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Colour of box1 and box2 are not same then we click on 'Repaint Box 2' to recolour it.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickRepaintBox2 -->
+        <test-method status="PASS" signature="proceedAfterRepaint()[pri:0, instance:org.pages.tatoc.FrameDungeon@31a5c39e]" name="proceedAfterRepaint" duration-ms="175" started-at="2019-03-07T12:27:19Z" finished-at="2019-03-07T12:27:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Colour of box1 and box2 are not same after repainting second box then after clicking on 'Proceed' it proceeds to an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- proceedAfterRepaint -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pages.tatoc.FrameDungeon@31a5c39e]" name="afterMethod" is-config="true" duration-ms="66" started-at="2019-03-07T12:27:20Z" finished-at="2019-03-07T12:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pages.tatoc.GridGate@5f2108b5]" name="afterMethod" is-config="true" duration-ms="65" started-at="2019-03-07T12:27:20Z" finished-at="2019-03-07T12:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.pages.tatoc.FrameDungeon -->
+      <class name="org.pages.tatoc.GridGate">
+        <test-method status="PASS" signature="opensNextPage()[pri:0, instance:org.pages.tatoc.GridGate@5f2108b5]" name="opensNextPage" duration-ms="133" started-at="2019-03-07T12:27:19Z" finished-at="2019-03-07T12:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensNextPage -->
+        <test-method status="PASS" signature="proceedToErrorPage()[pri:0, instance:org.pages.tatoc.GridGate@5f2108b5]" name="proceedToErrorPage" duration-ms="83" started-at="2019-03-07T12:27:19Z" finished-at="2019-03-07T12:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToErrorPage -->
+      </class> <!-- org.pages.tatoc.GridGate -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="12422" started-at="2019-03-07T12:27:10Z" finished-at="2019-03-07T12:27:22Z">
+      <class name="org.pages.tatoc.DragAndDrop">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:org.pages.tatoc.DragAndDrop@91161c7]" name="beforeMethod" is-config="true" duration-ms="8499" started-at="2019-03-07T12:27:10Z" finished-at="2019-03-07T12:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.0.1.86/tatoc/basic/drag#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/home/qainfotech/geckodriver-v0.24.0-linux64/geckodriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dragBoxOpensNextPage()[pri:0, instance:org.pages.tatoc.DragAndDrop@91161c7]" name="dragBoxOpensNextPage" duration-ms="1628" started-at="2019-03-07T12:27:18Z" finished-at="2019-03-07T12:27:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Dragbox and drop it in the box and click on proceed and it will open the next page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dragBoxOpensNextPage -->
+        <test-method status="PASS" signature="dragBoxProceedsToErrorPage()[pri:0, instance:org.pages.tatoc.DragAndDrop@91161c7]" name="dragBoxProceedsToErrorPage" duration-ms="438" started-at="2019-03-07T12:27:20Z" finished-at="2019-03-07T12:27:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Dragbox and drop it outside the box and click on proceed and it will open an error page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dragBoxProceedsToErrorPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pages.tatoc.DragAndDrop@91161c7]" name="afterMethod" is-config="true" duration-ms="1852" started-at="2019-03-07T12:27:20Z" finished-at="2019-03-07T12:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.pages.tatoc.DragAndDrop -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Test Suite -->
+</testng-results>
