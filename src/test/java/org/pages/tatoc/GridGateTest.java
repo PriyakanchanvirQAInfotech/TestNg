@@ -21,7 +21,8 @@ public class GridGateTest {
 	
     public WebDriver driver ;
    public String baseUrl/* = "http://10.0.1.86/tatoc/basic/grid/gate"*/;
-    String driverPath = "/home/qainfotech/chromedriver_linux64/chromedriver";
+   String driverPath = "/home/gaurav/Downloads/chromedriver";
+	//String driverPath = "/home/qainfotech/chromedriver_linux64/chromedriver";
     JavascriptExecutor js;
     Properties property;
     
